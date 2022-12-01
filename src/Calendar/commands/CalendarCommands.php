@@ -42,7 +42,6 @@ class CalendarCommands extends Command
             $nbt = $item->getNamedTag();
             $nbt->setString("reward", $reward);
             $nbt->setString("day", $day);
-            var_dump($day);
             if(!isset($pData->get($sender->getName())[$day])){
                 $nbt->setString("open", "false");
                 $item->addEnchantment(new EnchantmentInstance(VanillaEnchantments::INFINITY()));
