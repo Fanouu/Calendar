@@ -1,0 +1,5 @@
+name: Calendar
+author: Fanouu
+api: [4.0.0]
+version: 1.0
+main: Calendar\Main

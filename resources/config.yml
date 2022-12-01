@@ -1,0 +1,64 @@
+
+#  _____      _                _
+# / ____|    | |              | |
+#| |     __ _| | ___ _ __   __| | __ _ _ __
+#| |    / _` | |/ _ \ '_ \ / _` |/ _` | '__|
+#| |___| (_| | |  __/ | | | (_| | (_| | |
+# \_____\__,_|_|\___|_| |_|\__,_|\__,_|_|
+#This plugin was made by Fan | My github page : https://github.com/Fanouu
+
+
+command:
+  command-name: "calendar"
+  command-description: "Open Calendar"
+  command-aliases:
+    - "noel"
+    - "calendrier"
+GUI:
+  name: "§cCalendrier ({page}/{maxPage})"
+  restricted-slot-item: "160:15"
+  calendar-item: "54:0"
+
+text:
+  gui:
+    restricted-slot: "§cRestricted"
+    back-item: "§6Back"
+    next-item: "§6Next"
+  message:
+    claim-reward: "Vous avez recuperer votre recompense du {day} : {rewardName}"
+
+#commande: command,your command, rewardName (don't add /)
+#item: item, id, meta, count, enchantName, customItemName, rewardName
+reward:
+  #01, 02, 03, 04, 05... 31 is day
+  01: "command,give {player} diamond_sword, une épée en diams"
+  02: "item, 1, 0, 64, sharpness, 1, dirt sharpness reward, une dirt badasse"
+  03: "command,give {player} diamond_sword, une épée en diams"
+  04: "item, 1, 0, 64, sharpness, 1, dirt sharpness reward, une dirt badasse"
+  05: "command,give {player} diamond_sword, une épée en diams"
+  06: "item, 1, 0, 64, sharpness, 1, dirt sharpness reward, une dirt badasse"
+  07: "command,give {player} diamond_sword, une épée en diams"
+  08: "item, 1, 0, 64, sharpness, 1, dirt sharpness reward, une dirt badasse"
+  09: "command,give {player} diamond_sword, une épée en diams"
+  10: "item, 1, 0, 64, sharpness, 1, dirt sharpness reward, une dirt badasse"
+  11: "command,give {player} diamond_sword, une épée en diams"
+  12: "item, 1, 0, 64, sharpness, 1, dirt sharpness reward, une dirt badasse"
+  13: "command,give {player} diamond_sword, une épée en diams"
+  14: "item, 1, 0, 64, sharpness, 1, dirt sharpness reward, une dirt badasse"
+  15: "command,give {player} diamond_sword, une épée en diams"
+  16: "item, 1, 0, 64, sharpness, 1, dirt sharpness reward, une dirt badasse"
+  17: "command,give {player} diamond_sword, une épée en diams"
+  18: "item, 1, 0, 64, sharpness, 1, dirt sharpness reward, une dirt badasse"
+  19: "command,give {player} diamond_sword, une épée en diams"
+  20: "item, 1, 0, 64, sharpness, 1, dirt sharpness reward, une dirt badasse"
+  21: "command,give {player} diamond_sword, une épée en diams"
+  22: "item, 1, 0, 64, sharpness, 1, dirt sharpness reward, une dirt badasse"
+  23: "command,give {player} diamond_sword, une épée en diams"
+  24: "item, 1, 0, 64, sharpness, 1, dirt sharpness reward, une dirt badasse"
+  25: "command,give {player} diamond_sword, une épée en diams"
+  26: "item, 1, 0, 64, sharpness, 1, dirt sharpness reward, une dirt badasse"
+  27: "command,give {player} diamond_sword, une épée en diams"
+  28: "item, 1, 0, 64, sharpness, 1, dirt sharpness reward, une dirt badasse"
+  29: "command,give {player} diamond_sword, une épée en diams"
+  30: "item, 1, 0, 64, sharpness, 1, dirt sharpness reward, une dirt badasse"
+  31: "command,give {player} diamond_sword, une épée en diams"
